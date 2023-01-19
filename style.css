@@ -1,0 +1,84 @@
+html{
+	scroll-behavior:smooth;
+}
+
+header{
+	background:url('images_videos/headerimg.png');
+	font-size:larger;
+	color:#FCDDB0;
+	padding:10px;
+	margin:-8px;
+	font-family: lucida handwriting;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+header h2{
+	font-size:20px;
+	margin-top: -2px;
+	color: #38729;
+}
+
+nav{
+	background-color:black;
+	margin:-8px;
+}
+
+nav a {
+	display:inline-block;
+	padding: 16px 30px;
+	text-decoration: none;
+	margin-bottom:-4px;
+	font-size: 20px;
+	font-family: 'Droid Serif';
+	transition: .5s;
+	overflow:hidden;
+	color:#FFC23C;
+}
+
+nav a:hover {
+	background-color: black;
+	color: yellow;
+	transform:scale(0.9);	
+	font-family: 'Droid Serif';
+}
+
+body{
+	text-align:center;
+	background-image:url('bgimg.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background: #FCDDB0;
+}
+
+.intro{
+	text-align: center;
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+	padding: 10px;
+	border: 5px solid black;
+	margin: 0;
+}
+
+section{
+	margin: 20px 200px 0px 200px;
+}
+
+#paris, #palawan, #seoul, #venice, #nyc{
+	background:url('images_videos/paper.png');
+	padding:5px;
+	border-color:black;
+	border-width:2px;
+	border: 5px solid black;
+	font-family: 'Droid Serif';
+	text-align: center;
+	color: black;
+}
+
+footer{
+	background-color: black;
+	color:#FFC23C;
+	margin:-8px;
+	text-align: center;
+}
